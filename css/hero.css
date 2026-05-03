@@ -1,0 +1,14 @@
+.section-hero {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+
+.section-hero .container {
+  text-align: center;
+}
+
+.section-hero .text-size-h1 {
+  margin: 0 auto;
+  max-width: 496px;
+  margin-bottom: 48px;
+}

@@ -1,0 +1,26 @@
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.section-team .text-size-h2 {
+  margin-bottom: 72px;
+}
+
+.section-team .team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-team .team-item {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+}
+
+.team-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  padding: 32px 16px;
+}
