@@ -54,6 +54,6 @@
   background-color: var(--green);
 }
 
-.footer-social-icon {
+.footer-social-icon svg {
   fill: url(--cloud);
 }
