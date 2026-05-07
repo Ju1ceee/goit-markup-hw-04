@@ -53,3 +53,7 @@
 .footer-social-link:focus {
   background-color: var(--green);
 }
+
+.footer-social-icon {
+  fill: url(--cloud);
+}
