@@ -8,18 +8,15 @@
 }
 
 .features-item-icon {
-  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  background-color: var(--cloud);
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
 }
 
 .features-list .text-size-h3 {
   margin: 8px 0;
-}
-
-.features-item-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--cloud);
-  border: 1px solid var(--light-slate);
-  border-radius: 4px;
 }

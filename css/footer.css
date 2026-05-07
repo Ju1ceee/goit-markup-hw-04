@@ -3,6 +3,19 @@
   background-color: var(--navy-blue);
 }
 
+.footer .logo {
+  color: var(--cloud);
+}
+
+.footer .logo-accent {
+  color: var(--iris);
+}
+
+.footer p {
+  max-width: 264px;
+  color: var(--cloud);
+}
+
 .footer-content {
   display: flex;
 }
@@ -15,20 +28,9 @@
 }
 
 .footer-content-right p {
+  font-weight: 500;
+  color: var(--white);
   margin-bottom: 16px;
-}
-
-.footer .logo {
-  color: var(--cloud);
-}
-
-.footer .logo-accent {
-  color: var(--iris);
-}
-
-.footer p {
-  max-width: 264px;
-  color: var(--cloud);
 }
 
 .footer-social-links {

@@ -34,8 +34,7 @@
 
 .team-social-links {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  gap: 24px;
 }
 
 .team-social-link {
@@ -52,4 +51,8 @@
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: var(--ocean);
+}
+
+.team-social-icon {
+  fill: var(--cloud);
 }
