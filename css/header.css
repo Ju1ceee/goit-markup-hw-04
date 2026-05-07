@@ -1,6 +1,5 @@
-/* Header Styles */
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .container.is-header {
@@ -12,7 +11,6 @@
   margin-left: auto;
 }
 
-/* Логотип */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -20,7 +18,7 @@
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .header .logo {
@@ -28,42 +26,59 @@
 }
 
 .logo-accent {
-  color: #4d5ae5;
+  color: var(--iris);
 }
 
-/* Навігація */
 .nav-list {
   display: flex;
   gap: 40px;
 }
 
 .nav-link {
+  position: relative;
   display: inline-block;
   padding: 24px 0;
   font-weight: 500;
-  color: #2e2f42;
   text-decoration: none;
-  transition: color 0.2s;
+  color: var(--navy-blue);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--ocean);
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
-/* Контакти */
+.nav-link:hover::after,
+.nav-link:focus::after {
+  opacity: 1;
+}
+
 .contact-list {
   display: flex;
   gap: 40px;
 }
 
 .contact-link {
-  color: #434455;
   text-decoration: none;
+  color: var(--slate);
   transition: color 0.2s;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }

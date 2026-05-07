@@ -1,5 +1,5 @@
 .section-team {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
 
 .section-team .text-size-h2 {
@@ -12,15 +12,15 @@
 }
 
 .section-team .team-item {
-  background-color: #ffffff;
-  border-radius: 0 0 4px 4px;
   overflow: hidden;
+  border-radius: 0 0 4px 4px;
+  background-color: var(--white);
 }
 
 .team-item-content {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   align-items: center;
+  gap: 8px;
   padding: 32px 16px;
 }
