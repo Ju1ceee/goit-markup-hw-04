@@ -10,11 +10,11 @@
   background-size: cover;
 }
 
-.section-hero .container {
+.hero-container {
   text-align: center;
 }
 
-.section-hero .text-size-h1 {
+.hero-title {
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;

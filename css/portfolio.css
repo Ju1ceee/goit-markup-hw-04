@@ -5,8 +5,9 @@
   row-gap: 48px;
 }
 
-.portfolio-list .portfolio-item {
+.portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item-content {
@@ -18,7 +19,7 @@
   border-top: none;
 }
 
-.margin-bottom-72 {
+.portfolio-title {
   margin-bottom: 72px;
 }
 
@@ -43,10 +44,6 @@
 .portfolio-item:hover .portfolio-item-overlay,
 .portfolio-item:focus .portfolio-item-overlay {
   transform: translateY(0%);
-}
-
-.portfolio-item {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover,
