@@ -3,11 +3,11 @@
   background-color: var(--navy-blue);
 }
 
-.footer .logo {
+.footer-logo {
   color: var(--cloud);
 }
 
-.footer .logo-accent {
+.footer-logo-accent {
   color: var(--iris);
 }
 
@@ -54,6 +54,6 @@
   background-color: var(--green);
 }
 
-.footer-social-link svg {
+.footer-social-icon {
   fill: var(--cloud);
 }
